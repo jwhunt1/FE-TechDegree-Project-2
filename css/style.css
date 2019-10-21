@@ -1,0 +1,45 @@
+body {
+    background-color: #303030;
+}
+
+h2, h3{
+    color: whitesmoke;
+}
+
+p {
+    color: rgb(177, 177, 177);
+    font-family: ;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #bb86fc;
+}
+
+.profile-img {
+    width: 200px;
+}
+
+.portfolio-img  {
+    width: 280px;
+    margin: auto;
+}
+
+/* for if mobile-specific rules needed
+@media screen and (max-width: 768) {
+
+} */
+
+/* Tablet media query */
+@media screen and (min-width: 768) {
+
+}
+
+/* Desktop media query */
+@media screen and (min-width: 1024) {
+    
+}
