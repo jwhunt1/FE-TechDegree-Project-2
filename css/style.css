@@ -1,32 +1,84 @@
 body {
     background-color: #303030;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
 }
 
 h2, h3{
-    color: whitesmoke;
+    color: rgb(226, 226, 226);
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    font-weight: 500;
 }
 
 p {
     color: rgb(177, 177, 177);
-    font-family: ;
+    width: 260px;
+    margin: 0 auto 20px;
+}
+
+.nav-item, #portfolio h2,
+#skills h2, #contact h2 {
+    font-size: 0.8em;
+    font-weight: 900;
+    color: whitesmoke;
+}
+
+header {
+    margin:0;
+    background: #424242;
+}
+
+#home h2 {
+    margin-top: 0;
+    padding-top: 40px;
+    font-size: 1.5em;
+    margin-bottom: 30px;
 }
 
 ul {
     list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #212121;
+    width: 290px;
+    margin: 5px auto;
+    padding: 13px 0;
 }
 
 a {
     text-decoration: none;
-    color: #bb86fc;
+    color: whitesmoke;
 }
 
 .profile-img {
     width: 200px;
+    margin: 20px auto 10px auto;
 }
 
 .portfolio-img  {
-    width: 280px;
+    width: 290px;
     margin: auto;
+}
+
+.profile-text {
+    width: 290px;
+    padding-bottom: 40px;
+    margin: 0px auto 0 auto;
+}
+
+#portfolio h2,
+#skills h2,
+#contact h2 {
+    padding: 40px;
+}
+
+.skills-logo {
+    width: 30px;
 }
 
 /* for if mobile-specific rules needed
