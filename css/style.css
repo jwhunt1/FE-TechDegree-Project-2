@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #303030;
     font-family: 'Lato', sans-serif;
@@ -95,6 +99,7 @@ a {
 
 .skills-logo {
     width: 30px;
+    height: 30px;
     margin-right: 15px;
 }
 
@@ -132,8 +137,59 @@ hr.thin {
 } */
 
 /* Tablet media query */
-@media screen and (min-width: 768) {
+@media screen and (min-width: 768px) {
+    
+    #home h2{
+        padding-top: 35px;
+        font-size: 1.7em;
+        margin-bottom: 10px;
+    }
 
+    .main-nav ul {
+        width: 50%;
+        margin: auto;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .main-nav li {
+        background: none;
+        width: auto;
+    }
+    
+    .nav-item, #portfolio h2,
+    #skills h2, #contact h2 {
+    font-size: 1.1em;
+    font-weight: 900;
+    color: whitesmoke;
+    }
+
+    .profile-flex {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .profile-img {
+        width: 290px;
+        margin: 20px auto 10px auto;
+    }
+    
+    .portfolio-img  {
+        width: 340px;
+        margin: auto;
+    }
+    
+    .portfolio_flex {
+        width: 95%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .portfolio-block {
+        margin-bottom: 30px;
+    }
 }
 
 /* Desktop media query */
