@@ -21,6 +21,7 @@ p {
     color: rgb(177, 177, 177);
     width: 260px;
     margin: 0 auto 20px;
+    line-height: 1.4;
 }
 
 .nav-item, #portfolio h2,
@@ -81,6 +82,10 @@ a {
     padding: 40px;
 }
 
+#contact h2 {
+    padding-bottom: 20px;
+}
+
 #skills {
     background: #424242;
 }
@@ -131,11 +136,6 @@ hr.thin {
     width: 90%;
     }
 
-/* for if mobile-specific rules needed
-@media screen and (max-width: 768) {
-
-} */
-
 /* Tablet media query */
 @media screen and (min-width: 768px) {
     
@@ -166,12 +166,22 @@ hr.thin {
 
     .profile-flex {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
+        flex-direction: row-reverse;
     }
-    
+
+    .profile-text {
+        text-align: left;
+        padding-top: 50px;
+        font-size: 1.4em;
+        width: 50%;
+        line-height: 1.5;
+    }
+
     .profile-img {
         width: 290px;
-        margin: 20px auto 10px auto;
+        margin: 50px auto 10px auto;
+        padding-bottom: 50px;
     }
     
     .portfolio-img  {
@@ -189,6 +199,17 @@ hr.thin {
 
     .portfolio-block {
         margin-bottom: 30px;
+    }
+
+    .skills-ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .contact-text {
+        width: 80%;
+        font-size: 1.45em;
+        padding-bottom: 40px;
     }
 }
 
