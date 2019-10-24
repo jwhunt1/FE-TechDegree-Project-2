@@ -136,7 +136,7 @@ hr.thin {
     width: 90%;
     }
 
-.footer {
+.footer-nav {
     display: none;
 }
 
@@ -214,6 +214,21 @@ hr.thin {
         width: 80%;
         font-size: 1.45em;
         padding-bottom: 40px;
+    }
+
+    .footer-top {
+        display: none;
+    }
+
+    .footer-nav {
+        display: flex;
+    }
+
+    .footer-nav li {
+        background: none;
+        width: auto;
+        font-size: 0.7em;
+        padding-left: 15px;
     }
 }
 
